@@ -66,11 +66,6 @@ def load_data(database_filepath):
     engine = create_engine('sqlite:///' + database_filepath)
     df = pd.read_sql_table('Database Project_2', engine)
     
-    # drop null columns and fix binary response
-    df = df.drop(['child_alone'],axis=1)
-    df['related'] = df['related'].map(lambda x: 1 if x == 2 else x)
-    
-    
     # create X, y
     X = df['message']
     y = df[df.columns[4:]]  
