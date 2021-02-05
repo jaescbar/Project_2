@@ -3,7 +3,7 @@
 ## 1. Project Motivation
 
   Project_2 is the second project of the data cience Udacity Course. The idea is to create a disaster response pipeline that helps categorize different real life messages.
-  This project can help people in need by reviewing the messages they send and responding adequately to those needs. 
+  This project can help people in need during an event of disaster by reviewing the messages they send and responding adequately to those needs. 
   
 
 ## 2. File Description
